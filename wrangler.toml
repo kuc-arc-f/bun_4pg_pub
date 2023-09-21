@@ -1,0 +1,13 @@
+
+name = "bun_4pg"
+main = "src/index.ts"
+compatibility_date = "2023-09-01"
+node_compat = true
+
+[vars]
+API_KEY = ""
+DB_NAME = ""
+DB_USERNAME = "postgres"
+DB_HOST = ""
+DB_PORT = "5432"
+DB_PASSWORD = ""

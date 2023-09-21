@@ -1,0 +1,21 @@
+{
+  "name": "bun_4pg",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230914.0",
+    "bun-types": "latest",
+    "wrangler": "^3.8.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "pg": "^8.11.3"
+  }
+}
